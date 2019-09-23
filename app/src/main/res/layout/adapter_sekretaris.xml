@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+    <RelativeLayout
+        android:id="@+id/list_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/text_no"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"/>
+        <LinearLayout
+            android:id="@+id/linear_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal            : "/>
+            <TextView
+                android:id="@+id/Tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_nis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_tanggal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIS                     : "/>
+            <TextView
+                android:id="@+id/Nis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIS"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_nis">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama                : "/>
+            <TextView
+                android:id="@+id/Nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_jenis_kelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_nama">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis kelamin  : "/>
+            <TextView
+                android:id="@+id/JenisKel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jenis kelamin"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_kelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_jenis_kelamin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelas                 : "/>
+            <TextView
+                android:id="@+id/Kelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_jurusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_kelas">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jurusan            : "/>
+            <TextView
+                android:id="@+id/Jurusan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jurusan"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_jurusan">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status               : "/>
+            <TextView
+                android:id="@+id/Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"/>
+        </LinearLayout>
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

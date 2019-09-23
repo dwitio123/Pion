@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Pion</string>
+    <string name="semua_siswa_hadir">Semua siswa hadir.</string>
+    <string name="semua_guru_hadir">Semua guru hadir.</string>
+
+    <string-array name="jenis_kelamin">
+        <item>Jenis Kelamin</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="kelas">
+        <item>Semua</item>
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
+    </string-array>
+
+    <string-array name="jurusan">
+        <item>Semua</item>
+        <item>AKL 1</item>
+        <item>AKL 2</item>
+        <item>AKL 3</item>
+        <item>OTKP 1</item>
+        <item>OTKP 2</item>
+        <item>BDP 1</item>
+        <item>BDP 2</item>
+        <item>BDP 3</item>
+        <item>RPL 1</item>
+        <item>RPL 2</item>
+        <item>TKJ 1</item>
+        <item>TKJ 2</item>
+    </string-array>
+
+    <string-array name="kelas_guru">
+        <item>Kelas</item>
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
+    </string-array>
+
+    <string-array name="jurusan_guru">
+        <item>Jurusan</item>
+        <item>AKL 1</item>
+        <item>AKL 2</item>
+        <item>AKL 3</item>
+        <item>OTKP 1</item>
+        <item>OTKP 2</item>
+        <item>BDP 1</item>
+        <item>BDP 2</item>
+        <item>BDP 3</item>
+        <item>RPL 1</item>
+        <item>RPL 2</item>
+        <item>TKJ 1</item>
+        <item>TKJ 2</item>
+    </string-array>
+
+    <string-array name="aksi">
+        <item>Edit Data</item>
+        <item>Hapus Data</item>
+    </string-array>
+</resources>

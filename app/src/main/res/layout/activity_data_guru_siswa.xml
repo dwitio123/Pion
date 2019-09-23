@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuruPiket.GuruPiketActivity"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/text_guru_piket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="guru piket"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <LinearLayout
+        android:id="@+id/linear_gs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear_guru"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="35dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/tombol_guru" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_absen_guru"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="35dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/tombol_absensi_guru"
+                android:adjustViewBounds="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_absen_siswa"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/tombol_absensi_siswa"
+                android:adjustViewBounds="true"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

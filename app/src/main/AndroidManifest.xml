@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tgs.app.pion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GuruPiket.LoginAbsenGuruActivity"></activity>
+        <activity android:name=".Tugas.TugasSiswaActivity2" />
+        <activity android:name=".GuruPiket.LoginAbsenSiswaActivity" />
+        <activity android:name=".LoginKepalaSekolahActivity" />
+        <activity android:name=".GuruPiket.AbsenGuruActivity" />
+        <activity android:name=".GuruPiket.GuruPiketActivity" />
+        <activity android:name=".Tugas.TugasSiswaActivity" />
+        <activity android:name=".Tugas.LoginTugasActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Guru.LoginGuruActivity" />
+        <activity android:name=".Sekretaris.LoginSekretarisActivity" />
+        <activity android:name=".Guru.EditGuruActivity" />
+        <activity android:name=".Tugas.TugasActivity" />
+        <activity android:name=".Guru.GuruActivity" />
+        <activity android:name=".Sekretaris.SekretarisActivity" />
+        <activity android:name=".Sekretaris.EditSekretarisActivity" />
+        <activity android:name=".Sekretaris.DataSekretarisActivity" />
+        <activity android:name=".Sekretaris.InputSekretarisActivity" />
+        <activity android:name=".GuruPiket.AbsenSiswaActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
