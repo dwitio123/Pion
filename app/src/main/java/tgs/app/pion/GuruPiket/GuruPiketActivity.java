@@ -16,7 +16,6 @@ public class GuruPiketActivity extends AppCompatActivity {
 
     TextView text_guru_piket;
     LinearLayout linear_absen_guru, linear_absen_siswa;
-    LinearLayout linear_guru;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,16 +25,8 @@ public class GuruPiketActivity extends AppCompatActivity {
         text_guru_piket = findViewById(R.id.text_guru_piket);
         Typeface typeface = Typeface.createFromAsset(getAssets(), "font/Hippo.otf");
         text_guru_piket.setTypeface(typeface);
-        linear_guru = findViewById(R.id.linear_guru);
         linear_absen_guru = findViewById(R.id.linear_absen_guru);
         linear_absen_siswa = findViewById(R.id.linear_absen_siswa);
-
-        linear_guru.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(GuruPiketActivity.this, LoginGuruActivity.class));
-            }
-        });
 
         linear_absen_guru.setOnClickListener(new View.OnClickListener() {
             @Override
