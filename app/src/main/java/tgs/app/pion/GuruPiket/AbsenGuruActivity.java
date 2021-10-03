@@ -306,7 +306,7 @@ public class AbsenGuruActivity extends AppCompatActivity {
             return true;
         } else if (item.getItemId() == R.id.menu_print){
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse(URLPrint.URL_PRINT));
+            intent.setData(Uri.parse(URLPrint.PRESENSI_ONLINE_GURU));
             startActivity(intent);
         }
         return true;
